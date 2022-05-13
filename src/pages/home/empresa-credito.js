@@ -24,7 +24,7 @@ const PainelEsc = () => {
                 Negocie créditos com os MEIs, Micro e Pequenas Empresas da sua
                 região
               </h1>
-              <Link href="https://www.simplesdecredito.com.br/cadastro/bem-vindo">
+              <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
                 <a
                   rel="noreferrer noopener"
                   data-type="URL"
@@ -138,7 +138,7 @@ const PainelEsc = () => {
             </div>
           </div>
           <div>
-            <Link href="https://www.simplesdecredito.com.br/cadastro/bem-vindo">
+            <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
               <a
                 rel="noreferrer noopener"
                 data-type="URL"
@@ -171,15 +171,15 @@ const PainelEsc = () => {
             <div className="flex flex-col w-full items-start md:w-1/3 lg:px-4">
               <ul className="space-y-2">
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard">Início</a>
+                  <a href="/home">Início</a>
                 </li>
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard/mei-micro-pequena-empresa">
+                  <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard/empresa-credito">
+                  <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>

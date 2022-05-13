@@ -10,7 +10,7 @@ const SubMenuMobile = () => {
           className="flex justify-center rounded-sm bg-transparent text-gray_color hover:bg-primary_first_color hover:text-bright_color first-letter:
   "
         >
-          <Link href="/dashboard">
+          <Link href="/home">
             <a className="w-full h-full py-3 text-center">Início</a>
           </Link>
         </li>
@@ -18,7 +18,7 @@ const SubMenuMobile = () => {
           className="flex justify-center rounded-sm bg-transparent text-gray_color hover:bg-primary_first_color hover:text-bright_color first-letter:
   "
         >
-          <Link href="/dashboard/mei-micro-pequena-empresa">
+          <Link href="/home/mei-micro-pequena-empresa">
             <a className="w-full h-full py-3 text-center">
               Mei, Micro e Pequena Empresa
             </a>
@@ -28,7 +28,7 @@ const SubMenuMobile = () => {
           className="flex justify-center rounded-sm bg-transparent text-gray_color hover:bg-primary_first_color hover:text-bright_color first-letter:
   "
         >
-          <Link href="/dashboard/empresa-credito">
+          <Link href="/home/empresa-credito">
             <a className="w-full h-full py-3 text-center">
               Empresa Simples de Crédito
             </a>

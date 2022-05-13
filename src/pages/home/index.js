@@ -112,7 +112,7 @@ const Dashboard = () => {
                 créditos junto às Empresas Simples de Crédito que atuam na sua
                 região.
               </p>
-              <Link href="/dashboard/mei-micro-pequena-empresa">
+              <Link href="/home/mei-micro-pequena-empresa">
                 <a className="flex mt-9 items-start justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-primary_first_color hover:bg-primary_second_color">
                   Saiba Mais
                 </a>
@@ -131,7 +131,7 @@ const Dashboard = () => {
                 pré-avaliar o risco de crédito, dentre outros serviços pensados
                 para sua empresa.
               </p>
-              <Link href="/dashboard/empresa-credito">
+              <Link href="/home/empresa-credito">
                 <a className="flex mt-9 items-start justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-primary_first_color hover:bg-primary_second_color">
                   Saiba Mais
                 </a>
@@ -187,7 +187,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div>
-            <Link href="https://www.simplesdecredito.com.br/cadastro/bem-vindo">
+            <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
               <a
                 rel="noreferrer noopener"
                 data-type="URL"
@@ -221,15 +221,15 @@ const Dashboard = () => {
             <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start md:w-1/3 lg:px-4">
               <ul className="space-y-2">
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard">Início</a>
+                  <a href="/home">Início</a>
                 </li>
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard/mei-micro-pequena-empresa">
+                  <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard/empresa-credito">
+                  <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>

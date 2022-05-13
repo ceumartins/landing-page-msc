@@ -29,7 +29,7 @@ const Dashboard = () => {
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
               </h1>
-              <Link href="https://www.simplesdecredito.com.br/cadastro/bem-vindo">
+              <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
                 <a
                   rel="noreferrer noopener"
                   data-type="URL"
@@ -142,7 +142,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div>
-            <Link href="https://www.simplesdecredito.com.br/cadastro/bem-vindo">
+            <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
               <a
                 rel="noreferrer noopener"
                 data-type="URL"
@@ -172,15 +172,15 @@ const Dashboard = () => {
             <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start md:w-1/3 lg:px-4">
               <ul className="space-y-2">
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard">Início</a>
+                  <a href="/home">Início</a>
                 </li>
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard/mei-micro-pequena-empresa">
+                  <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
                 <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
-                  <a href="/dashboard/empresa-credito">
+                  <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>

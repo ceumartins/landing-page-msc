@@ -43,15 +43,15 @@ const Dashboard = () => {
             <div className="flex flex-col w-full items-start md:w-1/3 lg:px-4">
               <ul className="space-y-2">
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard">Início</a>
+                  <a href="/home">Início</a>
                 </li>
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard/mei-micro-pequena-empresa">
+                  <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
                 <li className="flex justify-start items-start text-lg font-bold text-bright_color">
-                  <a href="/dashboard/empresa-credito">
+                  <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>
