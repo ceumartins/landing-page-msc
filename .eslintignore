@@ -1,0 +1,7 @@
+node_modules
+.next
+[Bb]uild*
+[Dd]ist*
+[Bb]in*
+package-lock.json
+
