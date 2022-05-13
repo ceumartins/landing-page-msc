@@ -13,7 +13,7 @@ const LayoutDashboard = ({ children }) => {
         {children}
       </div>
 
-      <footer className="flex bottom-0 flex-row justify-center items-center w-full text-xs text-gray_mid_color">
+      <footer className="flex bottom-0 flex-row justify-center items-center text-center w-full text-xs text-gray_mid_color">
         © COPYRIGHT &nbsp; {currentYear} &nbsp; MERCADO SIMPLES DE CRÉDITO
         BRASIL - 35.183.811/0001-50 - TODOS OS DIREITOS RESERVADOS
       </footer>

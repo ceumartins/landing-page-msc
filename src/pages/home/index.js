@@ -11,7 +11,7 @@ const Dashboard = () => {
             <h1 className="text-secundary_first_color text-center md:text-left text-2xl lg:text-4xl font-bold">
               Mercado Simples de Crédito
             </h1>
-            <p className="md:w-[80%] text-center md:text-left text-gray_color text-lg md:text-xl mt-4 ">
+            <p className="w-72 md:w-[70%] text-center md:text-left text-gray_color text-lg md:text-xl mt-4 ">
               O primeiro ecossistema a conectar MEIs, Micro e Pequenas Empresas
               às empresas Simples de Crédito.
             </p>
@@ -192,7 +192,7 @@ const Dashboard = () => {
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
-                className="flex mt-12 md:mx-96 font-bold items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
+                className="flex flex-col mt-12 mx-8 md:mx-96 text-sm md:text-base font-bold text-center items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
               >
                 SEJA UM DOS PRIMEIROS A SABER SE HÁ ESC ATENDENDO NO SEU
                 MUNICÍPIO
