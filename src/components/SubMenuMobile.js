@@ -39,7 +39,10 @@ const SubMenuMobile = () => {
   "
         >
           <Link href="http://suporte.mercadosimplesdecredito.com.br">
-            <a className="w-full h-full py-3 text-center">
+            <a rel="noreferrer noopener"
+                data-type="URL"
+                target="_blank"
+                className="w-full h-full py-3 text-center">
               Perguntas Frequentes
             </a>
           </Link>
@@ -49,7 +52,10 @@ const SubMenuMobile = () => {
   "
         >
           <Link href="https://www.simplesdecredito.com.br/">
-            <a className="w-full h-full py-3 text-center">Entrar</a>
+            <a rel="noreferrer noopener"
+                data-type="URL"
+                target="_blank"
+                className="w-full h-full py-3 text-center">Entrar</a>
           </Link>
         </li>
       </ul>

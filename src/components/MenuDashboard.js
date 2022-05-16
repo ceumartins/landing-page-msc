@@ -10,12 +10,12 @@ const MenuDashboard = () => {
   return (
     <header className="bg-white shadow-md">
       <nav className="flex h-full items-center container mx-auto md:px-44">
-        <div className="hidden sm:flex w-full h-20 items-center justify-between">
+        <div className="hidden sm:hidden md:hidden lg:flex w-full h-20 items-center justify-between">
           <article className="flex items-center space-x-8">
             <Link href="/home" className="pl-6 md:pl-0">
               <a>
                 <img
-                  className="h-12"
+                  className="lg:h-8 xl:h-10 2xl:h-12"
                   src="/assets/msc/png/logo-inteira-large.png"
                   alt="Logo"
                 />
@@ -25,7 +25,7 @@ const MenuDashboard = () => {
           <article className="flex items-center space-x-4">
             <Link href="/home">
               <a
-                className={`flex px-2 font-bold items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
+                className={`flex px-2 font-bold lg:text-xs xl:text-sm 2xl:text-base items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
                   router.pathname === '/home' &&
                   'flex items-center justify-center py-2 transition-colors duration-150 text-secundary_first_color'
                 }`}
@@ -35,7 +35,7 @@ const MenuDashboard = () => {
             </Link>
             <Link href="/home/mei-micro-pequena-empresa">
               <a
-                className={`flex px-2 font-bold items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
+                className={`flex px-2 font-bold lg:text-xs xl:text-sm 2xl:text-base items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
                   router.pathname === '/home/mei-micro-pequena-empresa' &&
                   'flex items-center justify-center py-2 transition-colors duration-150 text-secundary_first_color'
                 }`}
@@ -45,7 +45,7 @@ const MenuDashboard = () => {
             </Link>
             <Link href="/home/empresa-credito">
               <a
-                className={`flex px-2 font-bold items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
+                className={`flex px-2 font-bold lg:text-xs xl:text-sm 2xl:text-base items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color ${
                   router.pathname === '/home/empresa-credito' &&
                   'flex items-center justify-center py-2 transition-colors duration-150 text-secundary_first_color'
                 }`}
@@ -58,7 +58,7 @@ const MenuDashboard = () => {
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
-                className="flex px-2 font-bold items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color"
+                className="flex px-2 font-bold lg:text-xs xl:text-sm 2xl:text-base items-center justify-center py-2 transition-colors duration-150 text-primary_first_color hover:text-secundary_first_color"
               >
                 Perguntas Frequentes
               </a>
@@ -68,15 +68,15 @@ const MenuDashboard = () => {
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
-                className="flex px-4 font-bold items-center justify-center py-2 transition-colors duration-150 bg-secundary_first_color hover:bg-secundary_second_color rounded-lg text-bright_color"
+                className="flex px-4 font-bold lg:text-xs xl:text-sm 2xl:text-base items-center justify-center py-2 transition-colors duration-150 bg-secundary_first_color hover:bg-secundary_second_color rounded-lg text-bright_color"
               >
                 Entrar
               </a>
             </Link>
           </article>
         </div>
-        <div className="flex sm:hidden w-full px-6 h-20 items-center justify-between">
-          <Link href="/dashboard" className="pl-6 md:pl-0">
+        <div className="flex lg:hidden w-full px-6 h-20 items-center justify-between">
+          <Link href="/home" className="pl-6 md:pl-0">
             <a>
               <img
                 className="h-10"
