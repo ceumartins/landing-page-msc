@@ -7,15 +7,12 @@ const Dashboard = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mt-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color md:mt-8 md:mb-8">
             Antecipe com as{' '}
             <span className="text-secundary_first_color">
               Empresas Simples de Crédito
             </span>{' '}
-            da sua região,
-          </h1>
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mb-8">
-            de um jeito rápido, econômico e seguro
+            da sua região, de um jeito rápido, econômico e seguro
           </h1>
           <div className="justify-center items-center flex flex-col sm:flex-row space-y-8 sm:space-y-0 lg:px-14">
             <div className="flex flex-col w-full items-center md:w-1/3">
@@ -25,7 +22,7 @@ const Dashboard = () => {
               />
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
-              <h1 className="w-[80%] text-secundary_first_color text-center text-2xl sm:text-xl mt-6 mb-4">
+              <h1 className="w-[80%] text-secundary_first_color text-center text-lg md:text-2xl mt-6 mb-4">
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
               </h1>
@@ -42,7 +39,7 @@ const Dashboard = () => {
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="w-60 md:w-96 mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0 invisible md:visible -mb-96 md:mb-0"
                 src="/assets/msc/png/empreendedor-03.jpg"
               />
             </div>
@@ -59,8 +56,7 @@ const Dashboard = () => {
           </h1>
           <div className="justify-center flex flex-col items-center space-y-8 sm:space-y-0 lg:px-14">
             <iframe 
-              width="360"
-              height="202"
+              className="w-full aspect-video md:aspect-video"
               src="https://www.youtube.com/embed/oRLV5kHzwv0"
               title="YouTube video player"
               frameBorder="0"

@@ -7,7 +7,7 @@ const PainelEsc = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mt-8 mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color md:mt-8 md:mb-8">
             Conectamos sua{' '}
             <span className="text-secundary_first_color">ESC</span> ao Mercado
             de Recebíveis de cartões
@@ -20,7 +20,7 @@ const PainelEsc = () => {
               />
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
-              <h1 className="w-[80%] text-secundary_first_color text-center text-2xl sm:text-2xl mt-6 mb-4">
+              <h1 className="w-[80%] text-secundary_first_color text-center text-lg md:text-2xl mt-6 mb-4">
                 Negocie créditos com os MEIs, Micro e Pequenas Empresas da sua
                 região
               </h1>
@@ -37,7 +37,7 @@ const PainelEsc = () => {
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="w-60 md:w-96 mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0 invisible md:visible -mb-96 md:mb-0"
                 src="/assets/msc/png/empresaria-02.jpg"
               />
             </div>
@@ -54,8 +54,7 @@ const PainelEsc = () => {
           </h1>
           <div className="justify-center flex flex-col items-center space-y-8 sm:space-y-0 lg:px-14">
             <iframe
-              width="360"
-              height="202"
+              className="w-full aspect-video md:aspect-video"
               src="https://www.youtube.com/embed/toEaFrZ5LAE"
               title="YouTube video player"
               frameBorder="0"
