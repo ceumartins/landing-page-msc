@@ -23,7 +23,7 @@ const Dashboard = () => {
               </Link>
             </div>
           </div>
-          <img className="md:w-200 mt-0" src="/assets/msc/png/marca.png" />
+          <img className="w-48 md:w-80" src="/assets/msc/png/marca.png" />
         </section>
 
         <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center bg-primary_first_color">
@@ -46,7 +46,7 @@ const Dashboard = () => {
                 Somos
               </h1>
               <img
-                className="w-32 md:w-56 mb-4 md:mt-0"
+                className="w-32 md:w-56 mb-4"
                 src="/assets/msc/png/icon1.png"
               />
               <p className="flex w-[80%] justify-center text-center text-base md:text-lg font-bold text-bright_color">
@@ -61,7 +61,7 @@ const Dashboard = () => {
                 Desejamos
               </h1>
               <img
-                className="w-32 md:w-56 mb-4 md:mt-0"
+                className="w-32 md:w-56 mb-4"
                 src="/assets/msc/png/icon2.png"
               />
               <p className="flex w-[80%] justify-center text-center text-base md:text-lg font-bold text-bright_color">
@@ -75,7 +75,7 @@ const Dashboard = () => {
                 Conectamos
               </h1>
               <img
-                className="w-32 md:w-56 mb-4 md:mt-0"
+                className="w-32 md:w-56 mb-4"
                 src="/assets/msc/png/icon3.png"
               />
               <p className="flex w-[80%] justify-center text-center text-base md:text-lg font-bold text-bright_color">

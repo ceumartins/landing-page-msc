@@ -6,8 +6,8 @@ const PainelEsc = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-lg lg:text-4xl font-bold text-primary_first_color mt-8 mb-8">
+        <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mt-8 mb-8">
             Conectamos sua{' '}
             <span className="text-secundary_first_color">ESC</span> ao Mercado
             de Recebíveis de cartões
@@ -15,7 +15,7 @@ const PainelEsc = () => {
           <div className="justify-center items-center flex flex-col sm:flex-row space-y-8 sm:space-y-0 lg:px-14">
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0"
                 src="/assets/msc/png/empresario-01.png"
               />
             </div>
@@ -37,15 +37,15 @@ const PainelEsc = () => {
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0"
                 src="/assets/msc/png/empresaria-02.jpg"
               />
             </div>
           </div>
         </section>
 
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-lg lg:text-3xl font-bold text-bright_color mt-12 mb-8">
+        <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center bg-primary_first_color">
+          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mt-12 mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -54,8 +54,8 @@ const PainelEsc = () => {
           </h1>
           <div className="justify-center flex flex-col items-center space-y-8 sm:space-y-0 lg:px-14">
             <iframe
-              width="1120"
-              height="630"
+              width="360"
+              height="202"
               src="https://www.youtube.com/embed/toEaFrZ5LAE"
               title="YouTube video player"
               frameBorder="0"
@@ -65,8 +65,8 @@ const PainelEsc = () => {
           </div>
         </section>
 
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-lg lg:text-4xl font-bold text-secundary_first_color mt-12">
+        <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
+          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color mt-12">
             Cinco motivos para sua{' '}
             <span className="text-primary_first_color">ESC</span> utilizar a
             Plataforma Mercado Simples de Crédito
@@ -77,10 +77,10 @@ const PainelEsc = () => {
                 Conveniência
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon11.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Fazemos a prospecção de empresas dentro da sua área geográfica
                 de atuação.
               </p>
@@ -90,10 +90,10 @@ const PainelEsc = () => {
                 Economia
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon8.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Sem mensalidades, pague apenas pelos serviços que utilizar.
               </p>
             </div>
@@ -102,10 +102,10 @@ const PainelEsc = () => {
                 Abertura
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon13.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Depois de aprovada, sua ESC terá acesso ao mercado de Recebíveis
                 de cartões.
               </p>
@@ -115,10 +115,10 @@ const PainelEsc = () => {
                 Facilidade
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon10.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Informações setoriais e ofertas de serviços essenciais num só
                 lugar.
               </p>
@@ -128,10 +128,10 @@ const PainelEsc = () => {
                 Suporte
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon12.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Temos um time pronto para te ajudar em nossos canais de
                 atendimento.
               </p>
@@ -143,7 +143,7 @@ const PainelEsc = () => {
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
-                className="flex mt-12 mx-96 font-bold items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
+                className="flex flex-col mt-12 mx-8 md:mx-96 text-sm md:text-base font-bold items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
               >
                 COMECE JÁ
               </a>
@@ -151,39 +151,36 @@ const PainelEsc = () => {
           </div>
         </section>
 
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center bg-primary_dark_color">
-          <div className="justify-start items-start flex flex-col sm:flex-row space-y-8 sm:space-y-0 lg:px-14">
-            <div className="flex flex-col w-full items-start md:w-1/3 lg:px-4">
-              <img
-                className="w-60 mt-10 md:mt-0"
-                src="/assets/msc/png/logo-branca.png"
-              />
-              <p className="flex mt-6 justify-start items-start text-base text-bright_color">
+        <section className="w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center bg-primary_dark_color">
+          <div className="justify-center items-center md:justify-start md:items-start flex flex-col sm:flex-row space-y-8 sm:space-y-0 lg:px-14">
+            <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start md:w-1/3 lg:px-4">
+              <img className="w-60" src="/assets/msc/png/logo-branca.png" />
+              <p className="flex mt-6 justify-center items-center md:justify-start md:items-start text-base text-bright_color">
                 R. Guaicuí, nº 20, Sala 1002
               </p>
-              <p className="flex justify-start items-start text-base text-bright_color">
+              <p className="flex justify-center items-center md:justify-start md:items-start text-base text-bright_color">
                 Coração de Jesus, Belo Horizonte,
               </p>
-              <p className="flex justify-start items-start text-base text-bright_color">
+              <p className="flex justify-center items-center md:justify-start md:items-start text-base text-bright_color">
                 MG - CEP 30380-380
               </p>
             </div>
-            <div className="flex flex-col w-full items-start md:w-1/3 lg:px-4">
+            <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start md:w-1/3 lg:px-4">
               <ul className="space-y-2">
-                <li className="flex justify-start items-start text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
                   <a href="/home">Início</a>
                 </li>
-                <li className="flex justify-start items-start text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
                   <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
-                <li className="flex justify-start items-start text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
                   <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>
-                <li className="flex justify-start items-start text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center md:justify-start md:items-start text-base md:text-lg font-bold text-bright_color">
                   <a
                     rel="noreferrer noopener"
                     href="http://suporte.mercadosimplesdecredito.com.br"
@@ -195,13 +192,13 @@ const PainelEsc = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col w-full items-start md:w-1/3 lg:px-4">
-              <h1 className="text-secundary_first_color text-lg font-black">
+            <div className="flex flex-col w-full justify-center items-center md:justify-start md:items-start md:w-1/3 lg:px-4">
+              <h1 className="text-secundary_first_color text-base md:text-lg font-black">
                 Quer saber mais? Envie um e-mail para:
               </h1>
               <a
                 href="mailto:precisoconversar@simplesdecredito.com.br"
-                className="text-bright_color text-lg font-black"
+                className="text-bright_color text-base md:text-lg font-black"
               >
                 precisoconversar@simplesdecredito.com.br
               </a>
@@ -210,7 +207,7 @@ const PainelEsc = () => {
                   <h1 className="text-secundary_first_color text-start text-xl font-black">
                     SIGA NAS REDES
                   </h1>
-                  <div className="flex flex-row w-full justify-start items-start gap-2 mt-2">
+                  <div className="flex flex-row w-full justify-center items-center md:justify-start md:items-start gap-2 mt-2">
                     <a
                       rel="noreferrer noopener"
                       href="https://www.facebook.com/mercadosimplesdecredito"
@@ -258,7 +255,7 @@ const PainelEsc = () => {
                   </div>
                 </div>
                 <img
-                  className="w-32 mt-10 ml-10 md:mt-0"
+                  className="w-32 ml-10"
                   src="/assets/msc/png/certificado-ssl.png"
                 />
               </div>

@@ -7,25 +7,25 @@ const Dashboard = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-lg lg:text-4xl font-bold text-primary_first_color mt-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mt-8">
             Antecipe com as{' '}
             <span className="text-secundary_first_color">
               Empresas Simples de Crédito
             </span>{' '}
             da sua região,
           </h1>
-          <h1 className="w-full text-center text-lg lg:text-4xl font-bold text-primary_first_color mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color mb-8">
             de um jeito rápido, econômico e seguro
           </h1>
           <div className="justify-center items-center flex flex-col sm:flex-row space-y-8 sm:space-y-0 lg:px-14">
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0"
                 src="/assets/msc/png/empreendedor-18.jpg"
               />
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
-              <h1 className="w-[80%] text-secundary_first_color text-center text-2xl sm:text-2xl mt-6 mb-4">
+              <h1 className="w-[80%] text-secundary_first_color text-center text-2xl sm:text-xl mt-6 mb-4">
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
               </h1>
@@ -42,15 +42,15 @@ const Dashboard = () => {
             </div>
             <div className="flex flex-col w-full items-center md:w-1/3">
               <img
-                className="mt-10 md:mt-0"
+                className="w-60 md:w-96 mt-10 md:mt-0"
                 src="/assets/msc/png/empreendedor-03.jpg"
               />
             </div>
           </div>
         </section>
 
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-lg lg:text-3xl font-bold text-bright_color mt-12 mb-8">
+        <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center bg-primary_first_color">
+          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mt-12 mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -58,9 +58,9 @@ const Dashboard = () => {
             pode fazer por você
           </h1>
           <div className="justify-center flex flex-col items-center space-y-8 sm:space-y-0 lg:px-14">
-            <iframe
-              width="1120"
-              height="630"
+            <iframe 
+              width="360"
+              height="202"
               src="https://www.youtube.com/embed/oRLV5kHzwv0"
               title="YouTube video player"
               frameBorder="0"
@@ -70,8 +70,8 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen px-60 py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-lg lg:text-4xl font-bold text-secundary_first_color mt-12">
+        <section className="md:w-screen md:px-60 py-12 md:py-20 flex-col justify-center items-center">
+          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color mt-12">
             Cinco motivos para{' '}
             <span className="text-primary_first_color">você</span> utilizar a
             Plataforma Mercado Simples de Crédito
@@ -82,10 +82,10 @@ const Dashboard = () => {
                 Economia
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon8.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Utilize nossos serviços e não pague nada por isso.
               </p>
             </div>
@@ -94,10 +94,10 @@ const Dashboard = () => {
                 Simplicidade
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon9.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Selecione o tipo de crédito, preencha algumas informações e o
                 resto é com a gente.
               </p>
@@ -107,10 +107,10 @@ const Dashboard = () => {
                 Facilidade
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon10.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Um só cadastro e você negocia com todas as Empresas Simples de
                 crédito da sua região.
               </p>
@@ -120,10 +120,10 @@ const Dashboard = () => {
                 Conveniência
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon11.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Aqui, você resolve tudo de forma digital. Xô complicação!
               </p>
             </div>
@@ -132,10 +132,10 @@ const Dashboard = () => {
                 Suporte
               </h1>
               <img
-                className="w-48 mt-10 md:mt-0"
+                className="w-32 md:w-56"
                 src="/assets/msc/png/icon12.png"
               />
-              <p className="flex justify-center text-center text-xl font-bold text-gray_color mt-4">
+              <p className="w-[50%] md:w-full flex justify-center text-center text-lg md:text-xl font-bold text-gray_color mt-4">
                 Temos um time pronto para te ajudar em nossos canais de
                 atendimento.
               </p>
@@ -147,7 +147,7 @@ const Dashboard = () => {
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
-                className="flex mt-12 mx-96 font-bold items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
+                className="flex flex-col mt-12 mx-8 md:mx-96 text-sm md:text-base font-bold items-center justify-center p-4 px-6 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
               >
                 COMECE JÁ
               </a>
