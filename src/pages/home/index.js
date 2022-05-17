@@ -153,7 +153,7 @@ const Dashboard = () => {
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 888
               </h1>
-              <p className="flex w-[90%] lg:w-full justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[80%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Total de Empresas Simples de Crédito - ESCs em atividade
               </p>
             </div>
@@ -162,7 +162,7 @@ const Dashboard = () => {
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 555.323.180,00
               </h1>
-              <p className="flex w-[90%] lg:w-full justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[80%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Total estimado de recursos disponíveis para concessão
               </p>
             </div>
@@ -171,7 +171,7 @@ const Dashboard = () => {
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 1983
               </h1>
-              <p className="flex w-[90%] lg:w-full justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[80%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Total de Municípios atendidos pelas ESCs
               </p>
             </div>
@@ -180,7 +180,7 @@ const Dashboard = () => {
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 19.210.664
               </h1>
-              <p className="flex w-[90%] lg:w-full justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[80%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Total de MEIs, Micro e Pequenas Empresas que as ESCs já
                 conseguem atender
               </p>
