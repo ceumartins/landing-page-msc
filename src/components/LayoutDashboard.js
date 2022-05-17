@@ -7,12 +7,19 @@ const LayoutDashboard = ({ children }) => {
   }, [])
 
   return (
-    <section className="bg-gray_extra_light_color ">
+        <section className="bg-gray_extra_light_color ">
       <MenuDashboard />
       <div className="flex flex-col w-full h-full justify-center container mx-auto py-6">
         {children}
       </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN8Y6CBFNP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
 
+  gtag('config', 'G-WN8Y6CBFNP');
+</script>
       <footer className="flex bottom-0 flex-row justify-center items-center text-center w-full text-xs text-gray_mid_color">
         © COPYRIGHT &nbsp; {currentYear} &nbsp; MERCADO SIMPLES DE CRÉDITO
         BRASIL - 35.183.811/0001-50 - TODOS OS DIREITOS RESERVADOS
