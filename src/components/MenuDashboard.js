@@ -10,9 +10,9 @@ const MenuDashboard = () => {
   return (
     <header className="bg-white shadow-md">
       <nav className="flex h-full items-center container mx-auto md:px-44">
-        <div className="hidden sm:hidden md:hidden lg:flex w-full h-20 items-center justify-between">
+        <div className="hidden lg:flex w-full h-20 items-center justify-between">
           <article className="flex items-center space-x-8">
-            <Link href="/home" className="pl-6 md:pl-0">
+            <Link href="/home">
               <a>
                 <img
                   className="lg:h-8 xl:h-10 2xl:h-12"
@@ -75,8 +75,8 @@ const MenuDashboard = () => {
             </Link>
           </article>
         </div>
-        <div className="flex lg:hidden w-full px-6 h-20 items-center justify-between">
-          <Link href="/home" className="pl-6 md:pl-0">
+        <div className="flex lg:hidden w-full px-6 md:px-0 h-20 items-center justify-between">
+          <Link href="/home">
             <a>
               <img
                 className="h-10"
@@ -87,7 +87,7 @@ const MenuDashboard = () => {
           </Link>
 
           <div className="relative flex items-center">
-            <div className="mr-4 ">
+            <div>
               <button onClick={() => setShowSubMenuMobile(!showSubMenuMobile)}>
                 <img src="/assets/msc/png/hamburger.png" alt="menu mobile" />
                 {showSubMenuMobile && <SubMenuMobile />}
