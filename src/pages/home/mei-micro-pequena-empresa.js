@@ -14,7 +14,7 @@ const Dashboard = () => {
             </span>{' '}
             da sua região, de um jeito rápido, econômico e seguro
           </h1>
-          <div className="justify-center items-center flex flex-col lg:flex-row space-y-8 md:space-y-0 lg:px-14">
+          <div className="justify-center items-center flex flex-col lg:flex-row space-y-8 md:space-y-0">
             <div className="flex flex-col w-full items-center lg:w-1/3">
               <img
                 className="w-60 lg:w-80 mt-6 mb-4 lg:mt-0 lg:mb-0"
@@ -54,7 +54,7 @@ const Dashboard = () => {
             </span>{' '}
             pode fazer por você
           </h1>
-          <div className="justify-center flex flex-col items-center space-y-8 md:space-y-0 lg:px-14">
+          <div className="justify-center flex flex-col items-center space-y-8 md:space-y-0">
             <iframe 
               className="w-[80%] aspect-video md:aspect-video"
               src="https://www.youtube.com/embed/oRLV5kHzwv0"
@@ -72,9 +72,9 @@ const Dashboard = () => {
             <span className="text-primary_first_color">você</span> utilizar a
             Plataforma Mercado Simples de Crédito
           </h1>
-          <div className="justify-start items-start flex flex-col md:flex-row space-y-8 md:space-y-0 lg:px-14">
-            <div className="flex flex-col w-full items-center lg:w-1/5 lg:px-4 ">
-              <h1 className="text-primary_first_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 mb-6">
+          <div className="justify-start items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
+              <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Economia
               </h1>
               <img
@@ -85,8 +85,8 @@ const Dashboard = () => {
                 Utilize nossos serviços e não pague nada por isso.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5 lg:px-4">
-              <h1 className="text-primary_first_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 mb-6">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
+              <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Simplicidade
               </h1>
               <img
@@ -98,8 +98,8 @@ const Dashboard = () => {
                 resto é com a gente.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5 lg:px-4">
-              <h1 className="text-primary_first_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 mb-6">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
+              <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Facilidade
               </h1>
               <img
@@ -111,8 +111,8 @@ const Dashboard = () => {
                 crédito da sua região.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5 lg:px-4">
-              <h1 className="text-primary_first_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 mb-6">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
+              <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Conveniência
               </h1>
               <img
@@ -123,8 +123,8 @@ const Dashboard = () => {
                 Aqui, você resolve tudo de forma digital. Xô complicação!
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5 lg:px-4">
-              <h1 className="text-primary_first_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 mb-6">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
+              <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Suporte
               </h1>
               <img
@@ -152,35 +152,35 @@ const Dashboard = () => {
         </section>
 
         <section className="w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
-          <div className="justify-center items-center lg:justify-start lg:items-start flex flex-col md:flex-row space-y-8 md:space-y-0 lg:px-14">
-            <div className="flex flex-col w-full justify-center items-center lg:justify-start lg:items-start lg:w-1/3 lg:px-4">
+          <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
+            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
               <img className="w-60" src="/assets/msc/png/logo-branca.png" />
-              <p className="flex mt-6 justify-center items-center lg:justify-start lg:items-start text-sm xl:text-base text-bright_color">
+              <p className="flex mt-6 justify-center items-center text-sm xl:text-base text-bright_color">
                 R. Guaicuí, nº 20, Sala 1002
               </p>
-              <p className="flex justify-center items-center md:justify-start lg:items-start text-sm xl:text-base text-bright_color">
+              <p className="flex justify-center items-center text-sm xl:text-base text-bright_color">
                 Coração de Jesus, Belo Horizonte,
               </p>
-              <p className="flex justify-center items-center lg:justify-start lg:items-start text-sm xl:text-base text-bright_color">
+              <p className="flex justify-center items-center text-sm xl:text-base text-bright_color">
                 MG - CEP 30380-380
               </p>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:justify-start lg:items-start lg:w-1/3 lg:px-4">
+            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
               <ul className="space-y-2">
-                <li className="flex justify-center items-center lg:justify-start lg:items-start text-sm xl:text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a href="/home">Início</a>
                 </li>
-                <li className="flex justify-center items-center lg:justify-start lg:items-start text-sm xl:text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a href="/home/mei-micro-pequena-empresa">
                     MEI, Micro e Pequena Empresa
                   </a>
                 </li>
-                <li className="flex justify-center items-center lg:justify-start lg:items-start text-sm xl:text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a href="/home/empresa-credito">
                     Empresa Simples de Crédito
                   </a>
                 </li>
-                <li className="flex justify-center items-center lg:justify-start lg:items-start text-sm xl:text-lg font-bold text-bright_color">
+                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a
                     rel="noreferrer noopener"
                     href="http://suporte.mercadosimplesdecredito.com.br"
@@ -192,22 +192,22 @@ const Dashboard = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:justify-start lg:items-start lg:w-1/3 lg:px-4">
-              <h1 className="text-secundary_first_color text-base xl:text-lg font-black">
+            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
+              <h1 className="text-secundary_first_color text-sm xl:text-lg font-bold">
                 Quer saber mais? Envie um e-mail para:
               </h1>
               <a
                 href="mailto:precisoconversar@simplesdecredito.com.br"
-                className="text-bright_color text-base xl:text-lg font-black"
+                className="text-bright_color text-sm xl:text-lg font-bold"
               >
                 precisoconversar@simplesdecredito.com.br
               </a>
-              <div className="flex flex-row justify-center items-center lg:justify-start lg:items-start mt-6">
+              <div className="flex flex-row justify-center items-center mt-6">
                 <div>
-                  <h1 className="text-secundary_first_color text-base xl:text-xl font-black">
+                  <h1 className="text-secundary_first_color text-sm lg:text-base xl:text-lg font-black">
                     SIGA NAS REDES
                   </h1>
-                  <div className="flex flex-row w-full justify-center items-center lg:justify-start lg:items-start gap-2 mt-2">
+                  <div className="flex flex-row w-full justify-center items-center gap-2 mt-2">
                     <a
                       rel="noreferrer noopener"
                       href="https://www.facebook.com/mercadosimplesdecredito"
@@ -215,7 +215,7 @@ const Dashboard = () => {
                       target="_blank"
                     >
                       <img
-                        className="h-6 lg:h-8"
+                        className="h-6 xl:h-8"
                         src="/assets/msc/png/icon-facebook.png"
                       />
                     </a>
@@ -226,7 +226,7 @@ const Dashboard = () => {
                       target="_blank"
                     >
                       <img
-                        className="h-6 lg:h-8"
+                        className="h-6 xl:h-8"
                         src="/assets/msc/png/icon-instagram.png"
                       />
                     </a>
@@ -237,7 +237,7 @@ const Dashboard = () => {
                       target="_blank"
                     >
                       <img
-                        className="h-6 lg:h-8"
+                        className="h-6 xl:h-8"
                         src="/assets/msc/png/icon-youtube.png"
                       />
                     </a>
@@ -248,7 +248,7 @@ const Dashboard = () => {
                       target="_blank"
                     >
                       <img
-                        className="h-6 lg:h-8"
+                        className="h-6 xl:h-8"
                         src="/assets/msc/png/icon-linkedin.png"
                       />
                     </a>
