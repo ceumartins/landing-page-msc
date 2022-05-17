@@ -7,7 +7,7 @@ const PainelEsc = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mt-8 lg:mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mb-8">
             Conectamos sua{' '}
             <span className="text-secundary_first_color">ESC</span> ao Mercado
             de Recebíveis de cartões
@@ -20,7 +20,7 @@ const PainelEsc = () => {
               />
             </div>
             <div className="flex flex-col w-full items-center lg:w-1/3">
-              <h1 className="w-[80%] text-secundary_first_color text-center text-base xl:text-2xl lg:mt-6 mb-4">
+              <h1 className="w-[80%] text-secundary_first_color text-center text-base xl:text-2xl mb-4">
                 Negocie créditos com os MEIs, Micro e Pequenas Empresas da sua
                 região
               </h1>
@@ -45,7 +45,7 @@ const PainelEsc = () => {
         </section>
 
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mt-12 mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -65,7 +65,7 @@ const PainelEsc = () => {
         </section>
 
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color mt-12">
+          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color">
             Cinco motivos para sua{' '}
             <span className="text-primary_first_color">ESC</span> utilizar a
             Plataforma Mercado Simples de Crédito

@@ -7,7 +7,7 @@ const Dashboard = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mt-8 lg:mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mb-8">
             Antecipe com as{' '}
             <span className="text-secundary_first_color">
               Empresas Simples de Crédito
@@ -22,7 +22,7 @@ const Dashboard = () => {
               />
             </div>
             <div className="flex flex-col w-full items-center lg:w-1/3">
-              <h1 className="w-[80%] text-secundary_first_color text-center text-base xl:text-2xl lg:mt-6 mb-4">
+              <h1 className="w-[80%] text-secundary_first_color text-center text-base xl:text-2xl mb-4">
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
               </h1>
@@ -47,7 +47,7 @@ const Dashboard = () => {
         </section>
 
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mt-12 mb-8">
+          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -67,7 +67,7 @@ const Dashboard = () => {
         </section>
 
         <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color mt-12">
+          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color">
             Cinco motivos para{' '}
             <span className="text-primary_first_color">você</span> utilizar a
             Plataforma Mercado Simples de Crédito
