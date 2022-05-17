@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
           <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mt-8 lg:mb-8">
             Antecipe com as{' '}
             <span className="text-secundary_first_color">
@@ -15,7 +15,7 @@ const Dashboard = () => {
             da sua região, de um jeito rápido, econômico e seguro
           </h1>
           <div className="justify-center items-center flex flex-col lg:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full items-center lg:w-1/3">
+            <div className="flex flex-col w-full items-center lg:items-end lg:w-1/3">
               <img
                 className="w-60 lg:w-80 mt-6 mb-4 lg:mt-0 lg:mb-0"
                 src="/assets/msc/png/empreendedor-18.jpg"
@@ -37,7 +37,7 @@ const Dashboard = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/3">
+            <div className="flex flex-col w-full items-center lg:items-start lg:w-1/3">
               <img
                 className="w-60 lg:w-80 mt-6 lg:mt-0 invisible lg:visible -mb-96 lg:mb-0"
                 src="/assets/msc/png/empreendedor-03.jpg"
@@ -46,7 +46,7 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
           <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mt-12 mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
@@ -66,7 +66,7 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
           <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color mt-12">
             Cinco motivos para{' '}
             <span className="text-primary_first_color">você</span> utilizar a
@@ -151,7 +151,7 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
+        <section className="w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
           <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
             <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
               <img className="w-60" src="/assets/msc/png/logo-branca.png" />
@@ -204,7 +204,7 @@ const Dashboard = () => {
               </a>
               <div className="flex flex-row justify-center items-center mt-6">
                 <div>
-                  <h1 className="text-secundary_first_color text-sm lg:text-base xl:text-lg font-black">
+                  <h1 className="text-secundary_first_color text-center text-sm lg:text-base xl:text-lg font-black">
                     SIGA NAS REDES
                   </h1>
                   <div className="flex flex-row w-full justify-center items-center gap-2 mt-2">

@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex flex-col-reverse lg:flex-row justify-center items-center">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex flex-col-reverse lg:flex-row justify-center items-center">
           <div className="w-full mt-8 lg:mt-0 lg:w-1/2 lg:px-6 flex flex-col">
             <h1 className="text-secundary_first_color text-center lg:text-left text-2xl xl:text-4xl font-bold">
               Mercado Simples de Crédito
@@ -26,7 +26,7 @@ const Dashboard = () => {
           <img className="items-center justify-center w-48 sm:48 md:w-56 lg:w-56 xl:w-72 2xl:w-80" src="/assets/msc/png/marca.png" />
         </section>
 
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-start bg-primary_first_color">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-start bg-primary_first_color">
           <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-bright_color">
             Olá, eu sou o Simplício!
           </h1>
@@ -89,7 +89,7 @@ const Dashboard = () => {
 
         <section
           id="saibamais"
-          className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center"
+          className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center"
         >
           <h1 className="w-full px-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color">
             O que a{' '}
@@ -140,7 +140,7 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
+        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
           <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-bright_color">
             Junte-se a nós!
           </h1>
@@ -204,7 +204,7 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen lg:px-60 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
+        <section className="w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
           <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
             <div className="flex flex-col w-full justify-center items-center lg:w-1/3 lg:px-2">
               <img className="w-60" src="/assets/msc/png/logo-branca.png" />
@@ -257,7 +257,7 @@ const Dashboard = () => {
               </a>
               <div className="flex flex-row justify-center items-center mt-6">
                 <div>
-                  <h1 className="text-secundary_first_color text-sm xl:text-base 2xl:text-lg font-black">
+                  <h1 className="text-secundary_first_color text-center text-sm xl:text-base 2xl:text-lg font-black">
                     SIGA NAS REDES
                   </h1>
                   <div className="flex flex-row w-full justify-center items-center gap-2 mt-2">
