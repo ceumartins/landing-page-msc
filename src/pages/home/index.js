@@ -6,9 +6,9 @@ const Dashboard = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex flex-col-reverse lg:flex-row justify-center items-center">
-          <div className="w-full mt-8 lg:mt-0 lg:w-1/2 lg:px-6 flex flex-col">
-            <h1 className="text-secundary_first_color text-center lg:text-left text-2xl xl:text-4xl font-bold">
+        <section className="sm:w-screen py-12 lg:py-20 flex flex-col-reverse lg:flex-row justify-center items-center">
+          <div className="w-full mt-8 lg:mt-0 lg:w-3/5 2xl:w-2/5 lg:px-6 flex flex-col">
+            <h1 className="text-secundary_first_color text-center lg:text-left text-2xl lg:text-3xl 2xl:text-4xl font-bold">
               Mercado Simples de Crédito
             </h1>
             <p className="lg:w-[70%] text-center lg:text-left text-gray_color text-base lg:text-lg xl:text-xl mt-4">
@@ -26,22 +26,22 @@ const Dashboard = () => {
           <img className="items-center justify-center w-48 sm:48 md:w-56 lg:w-56 xl:w-72 2xl:w-80" src="/assets/msc/png/marca.png" />
         </section>
 
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-start bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-bright_color">
+        <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-start bg-primary_first_color">
+          <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-bright_color">
             Olá, eu sou o Simplício!
           </h1>
-          <p className="w-full px-2 text-center mt-4 mb-6 lg:mb-16 text-bright_color font-bold text-lg lg:text-2xl">
+          <p className="w-full text-center mt-4 mb-6 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
             Aqui a sua empresa encontra um jeito rápido, econômico e seguro para
             solicitar e negociar créditos.
           </p>
           <div className="justify-center items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex w-full justify-center items-center lg:w-1/4">
+            <div className="flex w-full justify-center items-center lg:w-1/5">
               <img
-                className="w-32 xl:w-56"
+                className="w-28 lg:w-36 2xl:w-44"
                 src="/assets/msc/png/simplicio.png"
               />
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <h1 className="text-bright_color text-xl xl:text-3xl font-black lg:mb-4">
                 Somos
               </h1>
@@ -49,14 +49,14 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48 mb-4"
                 src="/assets/msc/png/icon1.png"
               />
-              <p className="flex w-[90%] xl:w-[60%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[90%] 2xl:w-[70%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 O primeiro, mais completo e seguro ecossistema digital
                 desenvolvido com o objetivo de estruturar nacionalmente um
                 mercado de crédito concebido para funcionar nos limites dos
                 municípios.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <h1 className="text-bright_color text-xl xl:text-3xl font-black lg:mb-4">
                 Desejamos
               </h1>
@@ -64,13 +64,13 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48 mb-4"
                 src="/assets/msc/png/icon2.png"
               />
-              <p className="flex w-[90%] xl:w-[60%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[90%] 2xl:w-[70%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Transformar os hábitos de consumo de crédito dos MEIs, Micro e
                 Pequenos empresários e mudar a maneira como o cidadão poupador
                 fará seus investimentos.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <h1 className="text-bright_color text-xl xl:text-3xl font-black lg:mb-4">
                 Conectamos
               </h1>
@@ -78,7 +78,7 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48 mb-4"
                 src="/assets/msc/png/icon3.png"
               />
-              <p className="flex w-[90%] xl:w-[60%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[90%] 2xl:w-[70%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 As Empresas Simples de Crédito - ESC aos MEIs, Micro e Pequenas
                 Empresas e criamos as possibilidades para que possam negociar
                 seus créditos com segurança em ambiente digital.
@@ -89,9 +89,9 @@ const Dashboard = () => {
 
         <section
           id="saibamais"
-          className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center"
+          className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center"
         >
-          <h1 className="w-full px-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color">
+          <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
             O que a{' '}
             <span className="text-primary_first_color">
               Mercado Simples de Crédito
@@ -99,7 +99,7 @@ const Dashboard = () => {
             pode fazer pela sua empresa?
           </h1>
           <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full items-center lg:w-1/2">
+            <div className="flex flex-col w-full items-center lg:w-1/3">
               <img
                 className="w-96 lg:w-[90%] mt-10"
                 src="/assets/msc/png/img1.png"
@@ -118,7 +118,7 @@ const Dashboard = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/2">
+            <div className="flex flex-col w-full items-center lg:w-1/3">
               <img
                 className="w-96 lg:w-[90%] mt-10"
                 src="/assets/msc/png/img2.png"
@@ -140,24 +140,24 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-bright_color">
+        <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
+          <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-bright_color">
             Junte-se a nós!
           </h1>
-          <p className="w-full text-center mt-4 mb-8 lg:mb-16 text-bright_color font-bold text-xl lg:text-2xl">
+          <p className="w-full text-center mt-4 mb-8 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
             Para transformar a economia dos 5.570 municípios brasileiros
           </p>
-          <div className="justify-start items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+          <div className="justify-center items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
+            <div className="flex flex-col w-full justify-center items-center lg:w-1/5">
               <img className="w-32 2xl:w-48" src="/assets/msc/png/icon4.png" />
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 888
               </h1>
-              <p className="flex w-[80%] justify-center text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
+              <p className="flex w-[80%] text-center text-sm lg:text-base xl:text-lg font-bold text-bright_color">
                 Total de Empresas Simples de Crédito - ESCs em atividade
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <img className="w-32 2xl:w-48" src="/assets/msc/png/icon5.png" />
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 555.323.180,00
@@ -166,7 +166,7 @@ const Dashboard = () => {
                 Total estimado de recursos disponíveis para concessão
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <img className="w-32 2xl:w-48" src="/assets/msc/png/icon1.png" />
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 1983
@@ -175,7 +175,7 @@ const Dashboard = () => {
                 Total de Municípios atendidos pelas ESCs
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/4">
+            <div className="flex flex-col w-full items-center lg:w-1/5">
               <img className="w-32 2xl:w-48" src="/assets/msc/png/icon7.png" />
               <h1 className="text-bright_color text-xl lg:text-2xl xl:text-3xl font-black mt-4 lg:mb-6">
                 19.210.664
@@ -204,9 +204,9 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
+        <section className="w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
           <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3 lg:px-2">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <img className="w-60" src="/assets/msc/png/logo-branca.png" />
               <p className="flex mt-6 justify-center items-center text-sm xl:text-base text-bright_color">
                 R. Guaicuí, nº 20, Sala 1002
@@ -218,7 +218,7 @@ const Dashboard = () => {
                 MG - CEP 30380-380
               </p>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3 lg:px-2">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <ul className="space-y-2">
                 <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a href="/home">Início</a>
@@ -245,7 +245,7 @@ const Dashboard = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3 lg:px-2">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <h1 className="text-secundary_first_color text-sm xl:text-lg font-bold">
                 Quer saber mais? Envie um e-mail para:
               </h1>

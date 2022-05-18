@@ -6,8 +6,8 @@ const Dashboard = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl lg:text-4xl font-bold text-primary_first_color lg:mb-8">
+        <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center">
+          <h1 className="w-full text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-primary_first_color lg:mb-8">
             Antecipe com as{' '}
             <span className="text-secundary_first_color">
               Empresas Simples de Crédito
@@ -15,13 +15,13 @@ const Dashboard = () => {
             da sua região, de um jeito rápido, econômico e seguro
           </h1>
           <div className="justify-center items-center flex flex-col lg:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full items-center lg:items-end lg:w-1/3">
+            <div className="flex flex-col w-full items-center lg:items-end lg:w-1/4">
               <img
                 className="w-60 lg:w-80 mt-6 mb-4 lg:mt-0 lg:mb-0"
                 src="/assets/msc/png/empreendedor-18.jpg"
               />
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/3">
+            <div className="flex flex-col w-full items-center lg:w-1/4">
               <h1 className="w-[80%] text-secundary_first_color text-center text-base xl:text-2xl mb-4">
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
@@ -37,7 +37,7 @@ const Dashboard = () => {
                 </a>
               </Link>
             </div>
-            <div className="flex flex-col w-full items-center lg:items-start lg:w-1/3">
+            <div className="flex flex-col w-full items-center lg:items-start lg:w-1/4">
               <img
                 className="w-60 lg:w-80 mt-6 lg:mt-0 invisible lg:visible -mb-96 lg:mb-0"
                 src="/assets/msc/png/empreendedor-03.jpg"
@@ -46,8 +46,8 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl lg:text-3xl font-bold text-bright_color mb-8">
+        <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
+          <h1 className="w-full text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-bright_color mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -56,7 +56,7 @@ const Dashboard = () => {
           </h1>
           <div className="justify-center flex flex-col items-center space-y-8 md:space-y-0">
             <iframe 
-              className="w-[80%] aspect-video md:aspect-video"
+              className="w-[60%] aspect-video md:aspect-video"
               src="https://www.youtube.com/embed/oRLV5kHzwv0"
               title="YouTube video player"
               frameBorder="0"
@@ -66,14 +66,14 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="sm:w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-2xl lg:text-4xl font-bold text-secundary_first_color">
+        <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center">
+          <h1 className="w-full mb-12 text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
             Cinco motivos para{' '}
             <span className="text-primary_first_color">você</span> utilizar a
             Plataforma Mercado Simples de Crédito
           </h1>
-          <div className="justify-start items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full items-center lg:w-1/5">
+          <div className="justify-center items-start flex flex-col md:flex-row space-y-8 md:space-y-0">
+            <div className="flex flex-col w-full items-center lg:w-1/6">
               <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Economia
               </h1>
@@ -85,7 +85,7 @@ const Dashboard = () => {
                 Utilize nossos serviços e não pague nada por isso.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5">
+            <div className="flex flex-col w-full items-center lg:w-1/6">
               <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Simplicidade
               </h1>
@@ -98,7 +98,7 @@ const Dashboard = () => {
                 resto é com a gente.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5">
+            <div className="flex flex-col w-full items-center lg:w-1/6">
               <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Facilidade
               </h1>
@@ -111,7 +111,7 @@ const Dashboard = () => {
                 crédito da sua região.
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5">
+            <div className="flex flex-col w-full items-center lg:w-1/6">
               <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Conveniência
               </h1>
@@ -123,7 +123,7 @@ const Dashboard = () => {
                 Aqui, você resolve tudo de forma digital. Xô complicação!
               </p>
             </div>
-            <div className="flex flex-col w-full items-center lg:w-1/5">
+            <div className="flex flex-col w-full items-center lg:w-1/6">
               <h1 className="text-primary_first_color text-lg lg:text-xl xl:text-2xl font-black mt-4 mb-6">
                 Suporte
               </h1>
@@ -151,9 +151,9 @@ const Dashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen px-20 py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
+        <section className="w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
           <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <img className="w-60" src="/assets/msc/png/logo-branca.png" />
               <p className="flex mt-6 justify-center items-center text-sm xl:text-base text-bright_color">
                 R. Guaicuí, nº 20, Sala 1002
@@ -165,7 +165,7 @@ const Dashboard = () => {
                 MG - CEP 30380-380
               </p>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <ul className="space-y-2">
                 <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
                   <a href="/home">Início</a>
@@ -192,7 +192,7 @@ const Dashboard = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col w-full justify-center items-center lg:w-1/3">
+            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
               <h1 className="text-secundary_first_color text-sm xl:text-lg font-bold">
                 Quer saber mais? Envie um e-mail para:
               </h1>
@@ -204,7 +204,7 @@ const Dashboard = () => {
               </a>
               <div className="flex flex-row justify-center items-center mt-6">
                 <div>
-                  <h1 className="text-secundary_first_color text-center text-sm lg:text-base xl:text-lg font-black">
+                  <h1 className="text-secundary_first_color text-center text-sm xl:text-base 2xl:text-lg font-black">
                     SIGA NAS REDES
                   </h1>
                   <div className="flex flex-row w-full justify-center items-center gap-2 mt-2">
