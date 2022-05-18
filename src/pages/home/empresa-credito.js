@@ -3,7 +3,7 @@ import LayoutDashboard from '../../components/LayoutDashboard'
 import FooterDashboard from '../../components/FooterDashboard'
 import Link from 'next/link'
 
-const PainelEsc = () => {
+const EmpresaCredito = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
@@ -158,4 +158,4 @@ const PainelEsc = () => {
   )
 }
 
-export default PainelEsc
+export default EmpresaCredito

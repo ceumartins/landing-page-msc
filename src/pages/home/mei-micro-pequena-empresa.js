@@ -3,7 +3,7 @@ import LayoutDashboard from '../../components/LayoutDashboard'
 import FooterDashboard from '../../components/FooterDashboard'
 import Link from 'next/link'
 
-const Dashboard = () => {
+const MMPEmpresa = () => {
   return (
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
@@ -159,4 +159,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default MMPEmpresa
