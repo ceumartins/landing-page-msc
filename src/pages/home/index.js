@@ -11,7 +11,7 @@ const Dashboard = () => {
             <h1 className="text-secundary_first_color text-center lg:text-left text-2xl lg:text-3xl 2xl:text-4xl font-bold">
               Mercado Simples de Crédito
             </h1>
-            <p className="lg:w-[70%] text-center lg:text-left text-gray_color text-base lg:text-lg xl:text-xl mt-4">
+            <p className="lg:w-[70%] px-4 text-center lg:text-left text-gray_color text-base lg:text-lg xl:text-xl mt-4">
               O primeiro ecossistema a conectar MEIs, Micro e Pequenas Empresas
               às empresas Simples de Crédito.
             </p>
@@ -30,7 +30,7 @@ const Dashboard = () => {
           <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-bright_color">
             Olá, eu sou o Simplício!
           </h1>
-          <p className="w-full text-center mt-4 mb-6 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
+          <p className="w-full px-4 text-center mt-4 mb-6 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
             Aqui a sua empresa encontra um jeito rápido, econômico e seguro para
             solicitar e negociar créditos.
           </p>
@@ -91,7 +91,7 @@ const Dashboard = () => {
           id="saibamais"
           className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center"
         >
-          <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
+          <h1 className="w-full px-4 text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
             O que a{' '}
             <span className="text-primary_first_color">
               Mercado Simples de Crédito
@@ -144,7 +144,7 @@ const Dashboard = () => {
           <h1 className="w-full text-center text-2xl lg:text-3xl 2xl:text-4xl font-bold text-bright_color">
             Junte-se a nós!
           </h1>
-          <p className="w-full text-center mt-4 mb-8 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
+          <p className="w-full px-4 text-center mt-4 mb-8 lg:mb-16 text-bright_color font-bold text-lg lg:text-xl 2xl:text-2xl">
             Para transformar a economia dos 5.570 municípios brasileiros
           </p>
           <div className="justify-center items-start flex flex-col md:flex-row space-y-8 md:space-y-0">

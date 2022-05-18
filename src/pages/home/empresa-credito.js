@@ -7,7 +7,7 @@ const PainelEsc = () => {
     <LayoutDashboard>
       <div className="w-full flex flex-col items-center justify-center">
         <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-primary_first_color lg:mb-8">
+          <h1 className="w-full px-4 text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-primary_first_color lg:mb-8">
             Conectamos sua{' '}
             <span className="text-secundary_first_color">ESC</span> ao Mercado
             de Recebíveis de cartões
@@ -45,7 +45,7 @@ const PainelEsc = () => {
         </section>
 
         <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_first_color">
-          <h1 className="w-full text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-bright_color mb-8">
+          <h1 className="w-full px-4 text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-bright_color mb-8">
             Veja o que a{' '}
             <span className="text-secundary_first_color">
               Mercado Simples de Crédito
@@ -65,7 +65,7 @@ const PainelEsc = () => {
         </section>
 
         <section className="sm:w-screen py-12 lg:py-20 flex-col justify-center items-center">
-          <h1 className="w-full mb-12 text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
+          <h1 className="w-full px-4 mb-12 text-center text-2xl xl:text-3xl 2xl:text-4xl font-bold text-secundary_first_color">
             Cinco motivos para sua{' '}
             <span className="text-primary_first_color">ESC</span> utilizar a
             Plataforma Mercado Simples de Crédito
