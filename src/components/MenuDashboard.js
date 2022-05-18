@@ -9,13 +9,13 @@ const MenuDashboard = () => {
 
   return (
     <header className="bg-white shadow-md">
-      <nav className="flex h-full items-center container mx-auto px-20">
+      <nav className="flex h-full items-center container mx-auto lg:px-16">
         <div className="hidden lg:flex w-full h-20 items-center justify-between">
           <article className="flex items-center space-x-8">
             <Link href="/home">
               <a>
                 <img
-                  className="h-8 xl:h-10"
+                  className="h-8 lg:h-10 2xl:h-12"
                   src="/assets/msc/png/logo-inteira-large.png"
                   alt="Logo"
                 />
