@@ -1,5 +1,6 @@
 import React from 'react'
 import LayoutDashboard from '../../components/LayoutDashboard'
+import FooterDashboard from '../../components/FooterDashboard'
 import Link from 'next/link'
 
 const Dashboard = () => {
@@ -26,14 +27,14 @@ const Dashboard = () => {
                 Não espere para receber suas vendas de cartão e fuja das taxas
                 de antecipação cobradas pela sua maquininha
               </h1>
-              <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
+              <Link href="https://mercadosimplesdecredito.us20.list-manage.com/subscribe?u=7d545d08b2d66c4db6a605125&id=308f4887c2">
                 <a
                   rel="noreferrer noopener"
                   data-type="URL"
                   target="_blank"
                   className="flex lg:mt-2 xl:mt-4 items-center justify-center p-2 lg:p-4 px-6 font-bold transition-colors duration-150 text-bright_color rounded-lg bg-primary_first_color hover:bg-primary_second_color"
                 >
-                  COMECE JÁ
+                  ENTRE PARA A LISTA DE ESPERA
                 </a>
               </Link>
             </div>
@@ -81,8 +82,8 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48"
                 src="/assets/msc/png/icon8.png"
               />
-              <p className="w-[50%] md:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
-                Utilize nossos serviços e não pague nada por isso.
+              <p className="w-[70%] lg:w-[80%] 2xl:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
+                Não pague nada por nossos serviços.
               </p>
             </div>
             <div className="flex flex-col w-full items-center lg:w-1/6">
@@ -93,7 +94,7 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48"
                 src="/assets/msc/png/icon9.png"
               />
-              <p className="w-[50%] md:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
+              <p className="w-[70%] lg:w-[80%] 2xl:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
                 Selecione o tipo de crédito, preencha algumas informações e o
                 resto é com a gente.
               </p>
@@ -106,7 +107,7 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48"
                 src="/assets/msc/png/icon10.png"
               />
-              <p className="w-[50%] md:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
+              <p className="w-[70%] lg:w-[80%] 2xl:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
                 Um só cadastro e você negocia com todas as Empresas Simples de
                 crédito da sua região.
               </p>
@@ -119,7 +120,7 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48"
                 src="/assets/msc/png/icon11.png"
               />
-              <p className="w-[50%] md:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
+              <p className="w-[70%] lg:w-[80%] 2xl:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
                 Aqui, você resolve tudo de forma digital. Xô complicação!
               </p>
             </div>
@@ -131,137 +132,28 @@ const Dashboard = () => {
                 className="w-32 2xl:w-48"
                 src="/assets/msc/png/icon12.png"
               />
-              <p className="w-[50%] md:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
+              <p className="w-[70%] lg:w-[80%] 2xl:w-full flex justify-center text-center text-base xl:text-lg font-bold text-gray_color mt-4">
                 Temos um time pronto para te ajudar em nossos canais de
                 atendimento.
               </p>
             </div>
           </div>
           <div className="flex flex-col w-full items-center">
-            <Link href="https://www.simplesdecredito.com.br/esc/cadastro/bem-vindo">
+            <Link href="https://mercadosimplesdecredito.us20.list-manage.com/subscribe?u=7d545d08b2d66c4db6a605125&id=308f4887c2">
               <a
                 rel="noreferrer noopener"
                 data-type="URL"
                 target="_blank"
                 className="flex mt-12 items-center justify-center text-sm lg:text-base font-bold text-center p-4 px-6 lg:px-12 transition-colors duration-150 text-bright_color rounded-lg bg-secundary_first_color hover:bg-secundary_second_color"
               >
-                COMECE JÁ
+                ENTRE PARA A LISTA DE ESPERA
               </a>
             </Link>
           </div>
-        </section>
+          </section>
 
-        <section className="w-screen py-12 lg:py-20 flex-col justify-center items-center bg-primary_dark_color">
-          <div className="justify-center items-center flex flex-col md:flex-row space-y-8 md:space-y-0">
-            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
-              <img className="w-60" src="/assets/msc/png/logo-branca.png" />
-              <p className="flex mt-6 justify-center items-center text-sm xl:text-base text-bright_color">
-                R. Guaicuí, nº 20, Sala 1002
-              </p>
-              <p className="flex justify-center items-center text-sm xl:text-base text-bright_color">
-                Coração de Jesus, Belo Horizonte,
-              </p>
-              <p className="flex justify-center items-center text-sm xl:text-base text-bright_color">
-                MG - CEP 30380-380
-              </p>
-            </div>
-            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
-              <ul className="space-y-2">
-                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
-                  <a href="/home">Início</a>
-                </li>
-                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
-                  <a href="/home/mei-micro-pequena-empresa">
-                    MEI, Micro e Pequena Empresa
-                  </a>
-                </li>
-                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
-                  <a href="/home/empresa-credito">
-                    Empresa Simples de Crédito
-                  </a>
-                </li>
-                <li className="flex justify-center items-center text-sm xl:text-lg font-bold text-bright_color">
-                  <a
-                    rel="noreferrer noopener"
-                    href="http://suporte.mercadosimplesdecredito.com.br"
-                    data-type="URL"
-                    target="_blank"
-                  >
-                    Perguntas Frequentes
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col w-full justify-center items-center lg:1/3 2xl:w-1/4 lg:px-2">
-              <h1 className="text-secundary_first_color text-sm xl:text-lg font-bold">
-                Quer saber mais? Envie um e-mail para:
-              </h1>
-              <a
-                href="mailto:precisoconversar@simplesdecredito.com.br"
-                className="text-bright_color text-sm xl:text-lg font-bold"
-              >
-                precisoconversar@simplesdecredito.com.br
-              </a>
-              <div className="flex flex-row justify-center items-center mt-6">
-                <div>
-                  <h1 className="text-secundary_first_color text-center text-sm xl:text-base 2xl:text-lg font-black">
-                    SIGA NAS REDES
-                  </h1>
-                  <div className="flex flex-row w-full justify-center items-center gap-2 mt-2">
-                    <a
-                      rel="noreferrer noopener"
-                      href="https://www.facebook.com/mercadosimplesdecredito"
-                      data-type="URL"
-                      target="_blank"
-                    >
-                      <img
-                        className="h-6 xl:h-8"
-                        src="/assets/msc/png/icon-facebook.png"
-                      />
-                    </a>
-                    <a
-                      rel="noreferrer noopener"
-                      href="https://www.instagram.com/mercadosimplesdecredito/"
-                      data-type="URL"
-                      target="_blank"
-                    >
-                      <img
-                        className="h-6 xl:h-8"
-                        src="/assets/msc/png/icon-instagram.png"
-                      />
-                    </a>
-                    <a
-                      rel="noreferrer noopener"
-                      href="https://www.youtube.com/channel/UC2mjGfeWEHAKugpxg1Kw6vw"
-                      data-type="URL"
-                      target="_blank"
-                    >
-                      <img
-                        className="h-6 xl:h-8"
-                        src="/assets/msc/png/icon-youtube.png"
-                      />
-                    </a>
-                    <a
-                      rel="noreferrer noopener"
-                      href="https://www.linkedin.com/company/mercadosimplesdecredito/"
-                      data-type="URL"
-                      target="_blank"
-                    >
-                      <img
-                        className="h-6 xl:h-8"
-                        src="/assets/msc/png/icon-linkedin.png"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <img
-                  className="w-32 ml-10"
-                  src="/assets/msc/png/certificado-ssl.png"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+          <FooterDashboard />
+
       </div>
     </LayoutDashboard>
   )
