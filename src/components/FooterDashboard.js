@@ -120,16 +120,16 @@ const FooterDashboard = () => {
           </div>
         </section>
 
-        <section className="w-screen h-16 justify-between items-center bg-gray_color">
-          <div className="flex flex-col lg:flex-row py-4 2xl:py-6">
-            <div className="flex w-full">
-                <p className="flex justify-center lg:justify-start text-center pl-6 text-xs text-bright_color">
-                © COPYRIGHT &nbsp; {currentYear} &nbsp; MERCADO SIMPLES DE CRÉDITO
-                BRASIL - 35.183.811/0001-50 - TODOS OS DIREITOS RESERVADOS
+        <section className="w-screen h-16 items-center bg-gray_extra_light_color lg:bg-gray_color">
+          <div className="flex flex-col lg:flex-row items-center justify-center py-6 2xl:py-6">
+            <div className="flex w-full items-center justify-center lg:justify-between">
+                <p className="flex justify-center items-center lg:justify-start text-center lg:pl-6 text-xs text-gray_color lg:text-bright_color">
+                © &nbsp; {currentYear} &nbsp; MERCADO SIMPLES DE CRÉDITO
+                BRASIL LTDA - 35.183.811/0001-50 
                 </p>
             </div>
-          <div className="flex w-full justify-center lg:justify-end gap-4 lg:pr-20 2xl:pr-40">
-              <div className="flex items-center text-xs font-bold text-bright_color hover:text-secundary_first_color">
+          <div className="flex w-full justify-center lg:justify-end pt-2 lg:pt-0 gap-4 lg:pr-20 2xl:pr-40">
+              <div className="flex items-center text-xs font-bold text-gray_color lg:text-bright_color hover:text-secundary_first_color">
                 <a
                   rel="noreferrer noopener"
                   href="https://positionfiles.sfo3.digitaloceanspaces.com/public/MSCB%20Politica%20de%20Privacidade%20V10.pdf"
@@ -139,7 +139,7 @@ const FooterDashboard = () => {
                   POLÍTICA DE PRIVACIDADE
                 </a>
               </div>
-              <div className="flex items-center text-xs font-bold text-bright_color hover:text-secundary_first_color">
+              <div className="flex items-center text-xs font-bold text-gray_color lg:text-bright_color hover:text-secundary_first_color">
                 <a
                   rel="noreferrer noopener"
                   href="https://positionfiles.sfo3.digitaloceanspaces.com/public/MSCB%20Termos%20Uso%2024032022.pdf"

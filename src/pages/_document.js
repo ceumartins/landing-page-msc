@@ -82,7 +82,8 @@ class MyDocument extends Document {
           <script
             id="ze-snippet"
             src="https://static.zdassets.com/ekr/snippet.js?key=d72c010a-4ce0-432a-a4ec-7d0620ad2715"
-          ></script>          
+          >
+          </script>       
         </Head>
         <body className="bg-gray_extra_light_color font-lato scrollbar-thin scrollbar-thumb-primary_first_color scrollbar-track-gray_light_color antialiased">
           <Main />
